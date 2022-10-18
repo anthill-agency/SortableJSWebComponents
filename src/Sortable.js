@@ -780,7 +780,8 @@ Sortable.prototype = /** @lends Sortable.prototype */ {
 					target = parent; // store last element
 				}
 				/* jshint boss:true */
-				while (parent = parent.parentNode);
+				/* Anthill: Fix for web components */
+				while (parent = (parent.host && parent.host.parentNode) || parent.parentNode);
 			}
 
 			_unhideGhostForTarget();

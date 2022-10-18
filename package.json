@@ -1,6 +1,6 @@
 {
-	"name": "sortablejs",
-	"exportName": "Sortable",
+	"name": "sortablejs-anthill",
+	"exportName": "Sortable-anthill",
 	"version": "1.15.0",
 	"devDependencies": {
 		"@babel/core": "^7.4.4",
@@ -15,7 +15,7 @@
 		"testcafe-reporter-xunit": "^2.1.0",
 		"uglify-js": "^3.5.12"
 	},
-	"description": "JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery required. Supports Meteor, AngularJS, React, Polymer, Vue, Knockout and any CSS library, e.g. Bootstrap.",
+	"description": "JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. Fork that contains fix so that it works with web components.",
 	"main": "./Sortable.min.js",
 	"module": "modular/sortable.esm.js",
 	"scripts": {
